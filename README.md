@@ -1,4 +1,4 @@
-# synapseeds
+# Synapseeds
 
 How to run:
 
