@@ -1864,10 +1864,6 @@ html {
   padding-bottom: 0.5rem;
 }
 
-.static {
-  position: static;
-}
-
 .z-\[1\] {
   z-index: 1;
 }
@@ -1898,10 +1894,6 @@ html {
 
 .flex-none {
   flex: none;
-}
-
-.transform {
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .grid-flow-col {
