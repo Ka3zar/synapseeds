@@ -2,10 +2,12 @@
 module.exports = {
   content: ["./views/**/*.ejs"],
   theme: {
-    extend: {},
+    extend: {
+      // Dark-Light Theme
+    },
   },
   plugins: [
-    require('daisyui'),
+    require('daisyui'), // why is it like this?
   ],
 }
 
