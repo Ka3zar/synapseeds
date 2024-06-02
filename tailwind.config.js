@@ -3,11 +3,15 @@ module.exports = {
   content: ["./views/**/*.ejs"],
   theme: {
     extend: {
-      // Dark-Light Theme
+      daisyui: {
+        themes: [
+          "sunset", //TODO: guarda why non va
+        ]
+      }
     },
   },
   plugins: [
-    require('daisyui'), // why is it like this?
+    require('daisyui'),
   ],
 }
 

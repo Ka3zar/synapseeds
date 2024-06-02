@@ -1868,8 +1868,16 @@ html {
   z-index: 1;
 }
 
+.m-5 {
+  margin: 1.25rem;
+}
+
 .mt-3 {
   margin-top: 0.75rem;
+}
+
+.h-full {
+  height: 100%;
 }
 
 .w-10 {
@@ -1926,6 +1934,19 @@ html {
 
 .rounded-full {
   border-radius: 9999px;
+}
+
+.rounded-t-xl {
+  border-top-left-radius: 0.75rem;
+  border-top-right-radius: 0.75rem;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.border-transparent {
+  border-color: transparent;
 }
 
 .bg-base-100 {
