@@ -1,5 +1,5 @@
 const express = require('express');
-const sharp = require('sharp'); //maybe you don't need it
+//const sharp = require('sharp'); // !!! maybe you don't need it !!!
 const app = express()
 const port = 3000
 
